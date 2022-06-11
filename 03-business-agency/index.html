@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 </head>
 <body>
   <!-- Navbar -->
@@ -36,7 +35,7 @@
 
   <div class="container">
     <!-- Section 1 -->
-    <section class="section-1">
+    <section class="section-1" id="home">
       <div class="banner">
         <h1 class="banner-heading">
           <span class="heading-1">Business Ideas</span>
@@ -51,7 +50,7 @@
     <!-- End of Section 1 -->
 
     <!-- Section 2 -->
-    <section class="section-2">
+    <section class="section-2" id="about">
       <h1 class="section-heading">About Us</h1>
       <div class="section-heading-line"></div>
       <div class="video-wrapper">
@@ -76,7 +75,7 @@
     <!-- End Section 2 -->
 
     <!-- Section 3 -->
-    <section class="section-3">
+    <section class="section-3" id="price">
       <h1 class="section-heading">Pricing</h1>
       <div class="section-heading-line"></div>
       <div class="pricing-cards-wrapper">
@@ -103,9 +102,9 @@
             </ul>
             <button class="pricing-card-btn btn-free">Choose Plan</button>
           </div>
-          <div class="pricing-card-back back-free">
+          <!-- <div class="pricing-card-back back-free">
             <a href="#">Order Now</a>
-          </div>
+          </div> -->
         </div>
         <div class="pricing-card">
           <div class="pricing-card-front">
@@ -130,9 +129,9 @@
             </ul>
             <button class="pricing-card-btn btn-basic">Choose Plan</button>
           </div>
-          <div class="pricing-card-back back-basic">
+          <!-- <div class="pricing-card-back back-basic">
             <a href="#">Order Now</a>
-          </div>
+          </div> -->
         </div>
         <div class="pricing-card">
           <div class="pricing-card-front">
@@ -157,9 +156,9 @@
             </ul>
             <button class="pricing-card-btn btn-standard">Choose Plan</button>
           </div>
-          <div class="pricing-card-back back-standard">
+          <!-- <div class="pricing-card-back back-standard">
             <a href="#">Order Now</a>
-          </div>
+          </div> -->
         </div>
         <div class="pricing-card">
           <div class="pricing-card-front">
@@ -187,13 +186,61 @@
             </ul>
             <button class="pricing-card-btn btn-premium">Choose Plan</button>
           </div>
-          <div class="pricing-card-back back-premium">
+          <!-- <div class="pricing-card-back back-premium">
             <a href="#">Order Now</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
     <!-- End of Section 3 -->
+
+    <!-- Section 4 -->
+    <section class="section-4" id="contact">
+      <h1 class="section-heading">Contact</h1>
+      <div class="section-heading-line"></div>
+      <div class="contact-wrapper">
+        <div class="contact-details">
+          <div class="phone">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Phone</h3>
+            <p>+123 456 789</p>
+          </div>
+          <div class="address">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Address</h3>
+            <p>The Shire</p>
+            <p>Middle Earth</p>
+          </div>
+          <div class="email">
+            <i class="far fa-envelope"></i>
+            <h3>Email</h3>
+            <p>frodo@bagging.com</p>
+          </div>
+        </div>
+        <h1>Get in Touch</h1>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+    </section>
+    <!-- End of Section 4 -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#price">Pricing</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="copyright">
+        Copyright &copy; KrisGanchev All Rights Reserved
+      </p>
+    </footer>
+    <!-- End of Footer -->
   </div>
 
 <script src="script.js"></script>
